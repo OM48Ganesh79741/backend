@@ -21,7 +21,9 @@ import com.bhushan.foodapi.service.FoodService;
 
 import lombok.AllArgsConstructor;
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+//@CrossOrigin(origins = "http://localhost:5173")
+
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/foods")
 public class FoodController {
 
