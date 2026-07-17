@@ -22,10 +22,6 @@ public class FoodEntity
 	private String category;
 	private String imageUrl;
 	
-	public FoodEntity() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
 	public String getId() {
 		return id;
 	}
